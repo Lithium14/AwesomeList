@@ -8,7 +8,12 @@ import { HomeFeaturesComponent } from './home-features/home-features.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, HomeBannerComponent, HomeFeatureCardComponent, HomeFeaturesComponent],
+  declarations: [
+    HomeComponent,
+    HomeBannerComponent,
+    HomeFeatureCardComponent,
+    HomeFeaturesComponent
+  ],
   imports: [
     CommonModule
   ]
