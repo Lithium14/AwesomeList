@@ -1,18 +1,25 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgxBootstrapModule } from './modules/ngx-bootstrap.module';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+
+  ],
   imports: [
     CommonModule,
-    NgxBootstrapModule
+    NgxBootstrapModule,
+    ReactiveFormsModule
   ],
   exports: [
     CommonModule,
-    NgxBootstrapModule
+    NgxBootstrapModule,
+    ReactiveFormsModule
   ]
 })
 export class SharedModule { }

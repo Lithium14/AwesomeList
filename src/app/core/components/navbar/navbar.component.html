@@ -3,8 +3,8 @@
    <a class="navbar-brand">Awesome List</a>
    <div class="collapse navbar-collapse">
     <ul class="navbar-nav mr-auto">
-     <li class="nav-item">
-      <a class="nav-link">Accueil</a>
+      <li [class.active]="isActive(homePath)" class="nav-item">
+        <a (click)="navigate(homePath)" class="nav-link">Accueil</a>
      </li>
     </ul>
     <ul class="navbar-nav ml-auto">
